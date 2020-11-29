@@ -1,3 +1,5 @@
+//Program to solve an ODE using 4th order Runge kutta method
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -79,3 +81,24 @@ void cases(double h)
 	fclose(fptr2);
 	printf("ODE solved using Runge Kutta method-4th order with h = %lf.\n", h);
 }
+
+
+
+
+
+
+/*************************************OUTPUT************************************
+Given ODE is :
+        y'' + y' = 1 - x
+Initial boundary value:
+        y(0) = 2
+        y'(0) = 1
+
+ODE solved using Runge Kutta method-4th order with h = 0.500000.
+ODE solved using Runge Kutta method-4th order with h = 0.200000.
+ODE solved using Runge Kutta method-4th order with h = 0.050000.
+ODE solved using Runge Kutta method-4th order with h = 0.020000.
+
+File path to Data storage locations:
+        C:/Users/sahoo/Desktop/P342/
+********************************************************************************/
